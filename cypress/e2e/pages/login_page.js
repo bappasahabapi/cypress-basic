@@ -4,6 +4,27 @@ export class LoginPage{
     // }
 
 
+     //todo:3rd way
+     //create variable for object locators
+
+     //class variables
+     inputEmail='#inputEmail3';
+     inputPassword='#inputPassword3';
+     formButton='form > .btn';
+
+    clickCheckbox(){
+        cy.get('#gridCheck1',).check()
+    }
+
+    enterEmail(email){
+        cy.get(this.inputEmail).type(email)
+    }
+    enterPassword(password){
+        cy.get(this.inputPassword).type(password)
+    }
+    clickSigning(){
+        cy.get('form > .btn').click()
+    }
 
     //todo: 1st way
 
@@ -49,25 +70,5 @@ export class LoginPage{
     //     cy.get('form > .btn').click()
     // }
 
-    //todo:3rd way
-     //create variable for object locators
-
-     //class variables
-     inputEmail='#inputEmail3';
-     inputPassword='#inputPassword3';
-     formButton='form > .btn';
-
-    clickCheckbox(){
-        cy.get('#gridCheck1',).check()
-    }
-
-    enterEmail(email){
-        cy.get(this.inputEmail).type(email)
-    }
-    enterPassword(password){
-        cy.get(this.inputPassword).type(password)
-    }
-    clickSigning(){
-        cy.get('form > .btn').click()
-    }
+   
 }

@@ -7,7 +7,7 @@
 
 --
 
-#    T-1
+#    T-1 [From scratch]
 **🌱 basic set up commands**
 -    `npm init -y`
 -    `npm install cypress`
