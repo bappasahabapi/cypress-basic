@@ -3,14 +3,16 @@ import { LoginPage } from "./pages/login_page";
 
 const loginPageObj = new LoginPage();
 
+beforeEach(function(){
+    cy.visit("https://thakurgaon-hospital.web.app/login");
+})
 
-
-describe("All login test cases", () => {
+describe("Login with valid credential", () => {
 
     //todo: for remove duplication
-    beforeEach(function(){
-        cy.visit("https://thakurgaon-hospital.web.app/login");
-    })
+    // beforeEach(function(){
+    //     cy.visit("https://thakurgaon-hospital.web.app/login");
+    // })
 
   it("Login test 1", () => {
 
@@ -31,5 +33,13 @@ describe("All login test cases", () => {
 
   });
  
-
 });
+
+it("Login fail case for invalid credential", () => {
+
+    loginPageObj.clickCheckbox();
+    loginPageObj.enterEmail("bappa@gmail.com");
+    loginPageObj.enterPassword("BAppa1234");
+    loginPageObj.clickSigning();
+
+  });
