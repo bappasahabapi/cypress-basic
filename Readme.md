@@ -45,3 +45,10 @@
 - Page objects try to fit multiple cases into a uniform interface, falling back to conditional   logic - a huge anti-pattern in our opinion.
 
 **Alternative to page objects that I call “Application Actions”**
+
+#    T-3
+
+**Read and write files in cypress*
+- Read files using `fixture()`
+- Read files using `readFile()`
+- Write files using `writeFile()`

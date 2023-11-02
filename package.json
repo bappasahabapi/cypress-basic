@@ -4,7 +4,9 @@
   "description": "-    `npm init -y` -    `npm install cypress` -    `npx cypress -v`",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bappa": "echo Welcome to the codebase bapi",
+    "cy-test": "cypress run"
   },
   "keywords": [],
   "author": "",
