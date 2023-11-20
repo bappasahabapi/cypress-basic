@@ -11,9 +11,10 @@
 **🌱 basic set up commands**
 -    `npm init -y`
 -    `npm install cypress`
+-     `npx cypress open` and automatically cypress folder created for testing
 -    `npx cypress -v`
 -    `npx cypress verify`
--    `npx cypress open`
+
 
 --
 
