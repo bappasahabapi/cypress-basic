@@ -1,6 +1,8 @@
 # 🌱 What i do here
 
--    Test1: Navigate to url using` cy.visit()` method
+  Test1: Navigate to url using` cy.visit()` method
+
+-   `https://rahulshettyacademy.com/seleniumPractise/#/`
 
 # 🌱 If you clone the project then just install the dependencies by run
 
