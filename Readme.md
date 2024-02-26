@@ -1,3 +1,7 @@
+# 🌱 What i do here
+
+-    Test1: Navigate to url using` cy.visit()` method
+
 # 🌱 If you clone the project then just install the dependencies by run
 
 - `git clone https://github.com/bappasahabapi/cypress-basic.git`
