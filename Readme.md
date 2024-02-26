@@ -1,6 +1,6 @@
 ### What i do here
 
-- **Test1.js** -> Navigate to url using `cy.visit()` method
+- **Test1.js**  Navigate to url using `cy.visit()` method
 
 
 
