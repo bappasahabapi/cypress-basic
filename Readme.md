@@ -11,19 +11,26 @@
 - Cypress is asynchronous in nature.
 - Non cypress commands cant not resolves promise by themeselves. we need to manually resolve it by using `.then()`
 
-**Test2.js** Validation code 
+**Test2.js**
 
-**Test3.js** 
+- Validation code
 
--  Check boxes
+**Test3.js**
+- `https://rahulshettyacademy.com/AutomationPractice/`
+- Check boxes
 - radio buttons
 - Static Dropdown
 - Dynamic dropdowns
 - autocomplete
 - visible invisible
-
 - Navigate test step by step
 
+**Test4.js** [Alerts,popups,child window]
+
+- cypress auto accepts alerts and popups. cypress has the capability of firing browser events. `window:alert` is the event which get fired on alert open.So you are firing the event through cypress to get access to that alert.
+- check boxes confirm alert
+- `window:alert`
+- `window:confirm`
 
 # 🌱 If you clone the project then just install the dependencies by run
 
@@ -39,7 +46,7 @@
 
 - `npm init -y`
 - `npm install cypress`
--     `npx cypress open` and automatically cypress folder created for testing
+- `npx cypress open` and automatically cypress folder created for testing
 - `npx cypress -v`
 - `npx cypress verify`
 
