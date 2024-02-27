@@ -13,6 +13,15 @@
 
 **Test2.js** Validation code 
 
+**Test3.js** 
+
+-  Check boxes
+- radio buttons
+- Static Dropdown
+- Dynamic dropdowns
+- autocomplete
+- visible invisible
+
 - Navigate test step by step
 
 
