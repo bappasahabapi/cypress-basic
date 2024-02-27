@@ -31,6 +31,11 @@
 - check boxes confirm alert
 - `window:alert`
 - `window:confirm`
+- openting in same or different tab
+- todo: handling same row siblings.to grab the `text()` methoud we have t use `function` as it is jquery object instead of cypress method
+- `table concept` traverse to the  siblings with next() and it works only on get()
+- Mouse hovet events are not supported in cypress. To solve this issue we can use jquery object named invoke('show') or use force click true
+
 
 # 🌱 If you clone the project then just install the dependencies by run
 
